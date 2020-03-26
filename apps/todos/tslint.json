@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "nrwlXplatIonic5Example",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "nrwl-xplat-ionic5-example",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
