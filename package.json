@@ -25,7 +25,16 @@
     "workspace-schematic": "nx workspace-schematic",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
+    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
+    "clean": "npx rimraf -- hooks node_modules package-lock.json && npm i",
+    "build.ionic.mobile": "nx build ionic-mobile",
+    "prepare.ionic.mobile": "npm run clean && npm run clean.ionic.mobile && npm run build.ionic.mobile",
+    "prepare.ionic.mobile.ios": "npm run prepare.ionic.mobile && cd apps/ionic-mobile && npm run cap.add.ios",
+    "prepare.ionic.mobile.android": "npm run prepare.ionic.mobile && cd apps/ionic-mobile && npm run cap.add.android",
+    "open.ionic.mobile.ios": "cd apps/ionic-mobile && npm run cap.ios",
+    "open.ionic.mobile.android": "cd apps/ionic-mobile && npm run cap.android",
+    "sync.ionic.mobile": "cd apps/ionic-mobile && npm run cap.copy",
+    "clean.ionic.mobile": "cd apps/ionic-mobile && npx rimraf -- hooks node_modules platforms www plugins ios android package-lock.json && npm i && rimraf -- package-lock.json"
   },
   "private": true,
   "dependencies": {
