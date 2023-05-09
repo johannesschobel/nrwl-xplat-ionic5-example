@@ -59,7 +59,7 @@
     "@ionic/angular": "^5.0.7"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.901.0",
+    "@angular-devkit/build-angular": "^16.0.0",
     "@angular/cli": "9.1.0",
     "@angular/compiler-cli": "9.1.0",
     "@angular/language-service": "9.1.0",
@@ -80,11 +80,11 @@
     "ts-node": "~8.8.1",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3",
-    "@nstudio/ionic-angular": "9.0.1",
+    "@nstudio/ionic-angular": "15.0.3",
     "@nrwl/angular": "^9.1.4",
     "@nstudio/ionic": "9.0.1",
     "@nstudio/angular": "9.0.1",
-    "@nstudio/web-angular": "9.0.1",
+    "@nstudio/web-angular": "15.0.3",
     "@capacitor/cli": "^1.5.1",
     "@angular-devkit/architect": "^0.901.0",
     "@angular-devkit/core": "^9.1.0",
