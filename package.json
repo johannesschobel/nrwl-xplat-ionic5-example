@@ -70,7 +70,7 @@
     "@types/jest": "25.1.4",
     "@types/node": "~12.12.31",
     "codelyzer": "~4.5.0",
-    "cypress": "^4.1.0",
+    "cypress": "^4.12.1",
     "dotenv": "8.2.0",
     "eslint": "6.8.0",
     "jest": "25.2.2",
@@ -94,12 +94,12 @@
     "@types/jasminewd2": "~2.0.3",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~4.1.0",
+    "karma": "~6.4.2",
     "karma-chrome-launcher": "~2.2.0",
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "^5.4.3"
+    "protractor": "^5.4.4"
   },
   "xplat": {
     "prefix": "nrwl-xplat-ionic5-example",
